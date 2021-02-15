@@ -69,16 +69,11 @@
   </build>
 
   <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>artifactory-pro-releases</name>
-        <url>http://jfrogartifactorypro.tk/artifactory/lib-release-local</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>artifactory-pro-snapshots</name>
-        <url>http://jfrogartifactorypro.tk/artifactory/lib-release-local</url>
-    </snapshotRepository>
-   </distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub pramodhmdt Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/PramodhMDT/sunshine-action</url>
+   </repository>
+  </distributionManagement>
 
 </project>
