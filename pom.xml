@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.package</groupId>
-  <artifactId>package</artifactId>
-  <version>1.0.1</version>
+  <groupId>com.sunshineaction</groupId>
+  <artifactId>sunshineaction</artifactId>
+  <version>1.2.6</version>
   <name>JavaTestDemo</name>
   <packaging>jar</packaging>
   <description>This is Java Testing Demo</description>
@@ -69,11 +69,16 @@
   </build>
 
   <distributionManagement>
-   <repository>
-     <id>github</id>
-     <name>GitHub poojadpatkar Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/Dev-Enterprise-2021/package</url>
-   </repository>
-  </distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>artifactory-pro-releases</name>
+        <url>http://jfrogartifactorypro.tk/artifactory/lib-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>artifactory-pro-snapshots</name>
+        <url>http://jfrogartifactorypro.tk/artifactory/lib-release-local</url>
+    </snapshotRepository>
+   </distributionManagement>
 
 </project>
